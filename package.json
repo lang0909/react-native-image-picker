@@ -24,9 +24,7 @@
   "license": "MIT",
   "scripts": {
     "start": "react-native start",
-    "example": "yarn --cwd example",
-    "prepare": "bob build",
-    "ci:publish": "yarn semantic-release"
+    "example": "yarn --cwd example"
   },
   "keywords": [
     "react-native",
@@ -42,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lang0909/react-native-image-picker.git"
+    "url": "https://github.com/react-native-image-picker/react-native-image-picker.git"
   },
   "devDependencies": {
     "@react-native-community/bob": "0.17.1",
