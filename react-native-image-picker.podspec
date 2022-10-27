@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/lang0909/react-native-image-picker.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/lang0909/react-native-image-picker.git", :tag => "main" }
   s.source_files  = "ios/*.{h,m}"
 
   s.dependency 'React-Core'
